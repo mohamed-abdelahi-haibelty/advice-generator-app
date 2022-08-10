@@ -45,4 +45,21 @@ body{
     background-image: url("images/pattern-divider-mobile.svg");
     height: 16px;
     background-position: center;
+    margin-bottom: 2rem;
+}
+.btn{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background-color: var(--Neon-Green);
+    padding: 21px;
+    width: 70px;
+    border: none;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    top: -36px;
+}
+.btn img{
+    width: 100%;
 }
