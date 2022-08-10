@@ -63,6 +63,10 @@ body{
 .btn img{
     width: 100%;
 }
+.transition{
+    transition: 0.4s ease;
+    transform: rotate(180deg);
+}
 .btn:hover{
     box-shadow: 0px 0px 25px var(--Neon-Green);
     cursor: pointer;
